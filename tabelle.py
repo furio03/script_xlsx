@@ -41,9 +41,7 @@ nome.strip()
 nome_file=nome+'.xlsx'
 percorso_parziale="C:\\Users\\utente\\OneDrive\\Desktop\\"
 percorso=percorso_parziale+nome_file
-i=0
-if i==1 :
-    tabella.to_excel(percorso)
+tabella.to_excel(percorso)
 
 
 
